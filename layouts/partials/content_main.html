@@ -41,7 +41,7 @@
                                                 onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
 					    {{ else }}
 					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+                                                onerror="fallbackLogo(this, {{ .url }})" alt="{{ .title }}">
 					    {{ end }}
                                         {{ else }}
 					    {{ if $.Site.Params.defaultLogo }}
@@ -49,7 +49,7 @@
                                                 onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
 					    {{ else }}
                                             <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+                                                onerror="fallbackLogo(this, {{ .url }})" alt="{{ .title }}">
 					    {{ end }}
                                         {{ end }}
                                     </div>
@@ -63,7 +63,7 @@
                             </div>
                         </a>
                         <a href="{{ .url }}" class="togo text-center text-muted is-views" data-id="689"
-                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                            data-toggle="tooltip" data-placement="right" title="direct link" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
                     </div>
@@ -108,20 +108,20 @@
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         {{ if findRE "http.*?(.|\n)*?" .logo }}
-					    {{ if $.Site.Params.defaultLogo }}
+					    {{ if ne $.Site.Params.defaultLogo   "" }}
 					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}123'" alt="{{ .title }}">
 					    {{ else }}
                                             <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+                                                onerror="javascript:this.src='{{ .logo }}123'" alt="{{ .title }}">
 					    {{ end }}
                                         {{ else }}
-					    {{ if $.Site.Params.defaultLogo }}
+					    {{ if ne $.Site.Params.defaultLogo   "/assets/image/logos/"}}
                                             <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}1'" alt="{{ .title }}">
 					    {{ else }}
                                             <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}2'" alt="{{ .title }}">
 					    {{ end }}
                                         {{ end }}
                                     </div>

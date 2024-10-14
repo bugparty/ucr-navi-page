@@ -25,7 +25,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
         }, 600);
     });
 </script>
-<script>        
+<script>      
     $(document).ready(function(){
         setTimeout(function () {
             if ($('a.smooth[href="' + window.location.hash + '"]')[0]) {
@@ -79,11 +79,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
             document.body.classList.remove('io-black-mode');
             document.body.classList.add('io-grey-mode');
             document.cookie = "night=1;path=/";
-            console.log('夜间模式开启');
+            console.log('Night Mode On');
         }else{
             document.body.classList.remove('night');
             document.cookie = "night=0;path=/";
-            console.log('夜间模式关闭');
+            console.log('Night Mode Off');
         }
     }else{
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';

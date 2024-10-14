@@ -5,12 +5,12 @@
                 <div class="s-type text-center">
                     <div class="s-type-list big">
                         <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                        <label for="type-baidu"   data-id="group-a"><span>常用</span></label>
-                        <label for="type-baidu1"  data-id="group-b"><span>搜索</span></label>
-                        <label for="type-whois"   data-id="group-c"><span>工具</span></label>
-                        <label for="type-zhihu"   data-id="group-d"><span>社区</span></label>
-                        <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
-                        <label for="type-zhaopin" data-id="group-f"><span>求职</span></label>
+                        <label for="type-baidu"   data-id="group-a"><span>Common</span></label>
+                        <label for="type-baidu1"  data-id="group-b"><span>Search</span></label>
+                        <label for="type-whois"   data-id="group-c"><span>Tools</span></label>
+                        <label for="type-zhihu"   data-id="group-d"><span>Community</span></label>
+                        <label for="type-taobao1" data-id="group-e"><span>LifeStyle</span></label>
+                        <label for="type-zhaopin" data-id="group-f"><span>Jobs</span></label>
                     </div>
                 </div>
             </div>
@@ -24,28 +24,32 @@
             <div id="search-list" class="hide-type-list">
                 <div class="search-group group-a">
                     <ul class="search-type">
-		        <li><input hidden="" type="radio" name="type" checked="checked"
+                <li><input hidden="" type="radio" name="type"  checked="checked"
+                            id="type-google"
+                            value="https://www.google.com/search?q=" 
+                            data-placeholder="Google Search">
+            
+            <label for="type-google"><span class="text-muted">Google</span></label>
+        </li>
+            <li><input hidden="" type="radio" name="type" 
+                id="type-bing"
+                value="https://www.bing.com/search?q=" 
+                data-placeholder="Bing Search">
+<label for="type-bing"><span class="text-muted">Bing</span></label>
+        </li>
+                   
+		        <li><input hidden="" type="radio" name="type" 
                                 id="type-baidu"
                                 value="https://www.baidu.com/s?wd=" 
                                 data-placeholder="百度一下，你就知道">
-                            <label for="type-baidu"><span class="text-muted">百度</span></label>
+                            <label for="type-baidu"><span class="text-muted">Baidu</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-bing"
-                                value="https://cn.bing.com/search?q=" 
-                                data-placeholder="微软 Bing 搜索">
-			    <label for="type-bing"><span class="text-muted">必应</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-google"
-                                value="https://www.google.com/search?q=" 
-                                data-placeholder="谷歌搜索">
-			    <label for="type-google"><span class="text-muted">谷歌</span></label>
-                        </li>
+                        
+                       
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-anaconda" 
 			        value="https://anaconda.org/search?q=" data-placeholder="Anaconda 软件搜索">
-			    <label for="type-anaconda"><span class="text-muted">软件</span></label>
+			    <label for="type-anaconda"><span class="text-muted">Conda</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-pubmed"

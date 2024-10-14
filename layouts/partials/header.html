@@ -28,6 +28,21 @@
     <link rel="stylesheet" id="fortawesome-css" href="{{ absURL "assets/fontawesome-5.15.4/css/all.min.css" }}" type="text/css" />
     <script type="text/javascript" src="{{ absURL "assets/js/jquery.min-3.2.1.js" }}" id="jquery-js"></script>
     <script type="text/javascript" src="{{ absURL "assets/js/content-search.js" }}"  id="content-search-js"></script>
+    <script>
+        //image logo helper
+        async function fallbackLogo(imgElement, domain){
+            const orig_src = imgElement.src;
+            //https://favicone.com/google.com?json
+            const url = new URL(domain);
+            const domainName = url.hostname;
+            const api = `https://www.google.com/s2/favicons?sz=128&domain=${domainName}`
+            console.log("fallbackLogo", domainName, api)
+            //prevent deadloop
+            if (imgElement.src != api){
+                imgElement.src = api
+            }
+        }  
+    </script>
     <!-- 百度统计 -->
     <script>
         {{ with .Site.Params.seo.baiduhmid }}
