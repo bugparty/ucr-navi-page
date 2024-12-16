@@ -1,0 +1,12 @@
+[about]
+title = "关于网站"
+
+[links]
+friend_links = "友情链接"
+direct_link = "直达"
+
+[day_mode]
+other = "日间模式"
+
+[night_mode]
+other = "夜间模式"

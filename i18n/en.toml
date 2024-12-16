@@ -1,0 +1,12 @@
+[about]
+title = "About the Website"
+
+[day_mode]
+other = "Day Mode"
+
+[night_mode]
+other = "Night Mode"
+
+[links]
+friend_links = "Friend Links"
+direct_link = "Direct Link"
