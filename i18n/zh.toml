@@ -61,3 +61,103 @@ zhaopin = "智联招聘"
 job51 = "前程无忧"
 lagou = "拉钩网"
 liepin = "猎聘网"
+
+[search_types.google_placeholder]
+other = "Google 搜索"
+
+[search_types.bing_placeholder]
+other = "Bing 搜索"
+
+[search_types.duckduckgo_placeholder]
+other = "Duckduckgo 搜索"
+
+[search_types.conda_placeholder]
+other = "Conda 搜索"
+
+[search_types.ucr_scholar_placeholder]
+other = "UCR 学术搜索"
+
+[search_types.baidu_placeholder]
+other = "百度搜索"
+[search_types.sm]
+other = "神马搜索"
+[search_types.so360_placeholder]
+other = "360 搜索"
+
+[search_types.sogou_placeholder]
+other = "搜狗搜索"
+
+[tools.weight_check_placeholder]
+other = "请输入网址(不带 https://)"
+
+[tools.friend_link_check_placeholder]
+other = "请输入网址(不带 https://)"
+
+[tools.domain_info_check_placeholder]
+other = "请输入网址(不带 https://)"
+
+[tools.ping_check_placeholder]
+other = "请输入网址(不带 https://)"
+
+[tools.dead_link_check_placeholder]
+other = "请输入网址(不带 https://)"
+
+[tools.keyword_mining_placeholder]
+other = "请输入关键词"
+
+[search_types.zhihu_placeholder]
+other = "知乎搜索"
+
+[search_types.wechat_placeholder]
+other = "微信搜索"
+
+[search_types.weibo_placeholder]
+other = "微博搜索"
+
+[search_types.douban_placeholder]
+other = "豆瓣搜索"
+
+[search_types.taobao_placeholder]
+other = "淘宝搜索"
+
+[search_types.jd_placeholder]
+other = "京东搜索"
+
+[search_types.xiachufang_placeholder]
+other = "下厨房搜索"
+
+[search_types.xiangha_placeholder]
+other = "香哈菜谱搜索"
+
+[search_types.train12306_placeholder]
+other = "12306 搜索"
+
+[search_types.qunar_placeholder]
+other = "去哪儿搜索"
+
+[search_types.zhaopin_placeholder]
+other = "智联招聘搜索"
+
+[search_types.job51_placeholder]
+other = "前程无忧搜索"
+
+[search_types.lagou_placeholder]
+other = "拉钩网搜索"
+
+[search_types.liepin_placeholder]
+other = "猎聘网搜索"
+
+[search_types.sm_placeholder]
+other = "神马搜索"
+
+[bulletin_1]
+other = "公告 1"
+
+[bulletin_2]
+other = "公告 2"
+
+[night_mode_on]
+other = "夜间模式开启"
+
+[night_mode_off]
+other = "夜间模式关闭"
