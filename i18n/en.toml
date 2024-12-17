@@ -1,15 +1,15 @@
+day_mode = "Day Mode"
+night_mode =  "Night Mode"
+night_mode_on  = "Night Mode On"
+night_mode_off = "Night Mode Off"
 [about]
 title = "About the Website"
 
-[day_mode]
-other = "Day Mode"
-
-[night_mode]
-other = "Night Mode"
 
 [links]
 friend_links = "Friend Links"
 direct_link = "Direct Link"
+upload_site = "Upload Site"
 
 [search]
 common = "Common"
@@ -31,6 +31,13 @@ domain_info_check = "Domain Info Check"
 ping_check = "Ping Check"
 dead_link_check = "Dead Link Check"
 keyword_mining = "Keyword Mining"
+
+weight_check_placeholder = "Enter URL (without https://)"
+friend_link_check_placeholder = "Enter URL (without https://)"
+domain_info_check_placeholder = "Enter URL (without https://)"
+ping_check_placeholder = "Enter URL (without https://)"
+dead_link_check_placeholder = "Enter URL (without https://)"
+keyword_mining_placeholder = "Enter keyword"
 
 [search_types]
 google = "Google"
@@ -61,96 +68,32 @@ zhaopin = "Zhaopin"
 job51 = "51Job"
 lagou = "Lagou"
 liepin = "Liepin"
+sm = "Magic Horse Search"
+google_placeholder = "Google Search"
+bing_placeholder = "Bing Search"
+duckduckgo_placeholder = "Duckduckgo Search"
+conda_placeholder = "Conda Search"
+ucr_scholar_placeholder = "UCR Scholar Search"
+baidu_placeholder = "Baidu Search"
+so360_placeholder = "360 Search"
+sogou_placeholder = "Sogou Search"
+sm_placeholder = "Magic Horse Search"
+zhihu_placeholder = "Zhihu Search"
+wechat_placeholder = "WeChat Search"
+weibo_placeholder = "Weibo Search"
+douban_placeholder = "Douban Search"
+taobao_placeholder = "Taobao Search"
+jd_placeholder = "JD Search"
+xiachufang_placeholder = "Xiachufang Search"
+xiangha_placeholder = "Xiangha Search"
+train12306_placeholder = "12306 Search"
+qunar_placeholder = "Qunar Search"
+zhaopin_placeholder = "Zhaopin Search"
+job51_placeholder = "51Job Search"
+lagou_placeholder = "Lagou Search"
+liepin_placeholder = "Liepin Search"
 
-[search_types.google_placeholder]
-other = "Google Search"
 
-[search_types.bing_placeholder]
-other = "Bing Search"
-
-[search_types.duckduckgo_placeholder]
-other = "Duckduckgo Search"
-
-[search_types.conda_placeholder]
-other = "Conda Search"
-
-[search_types.ucr_scholar_placeholder]
-other = "UCR Scholar Search"
-
-[search_types.baidu_placeholder]
-other = "Baidu Search"
-
-[search_types.so360_placeholder]
-other = "360 Search"
-
-[search_types.sogou_placeholder]
-other = "Sogou Search"
-
-[tools.weight_check_placeholder]
-other = "Enter URL (without https://)"
-
-[tools.friend_link_check_placeholder]
-other = "Enter URL (without https://)"
-
-[tools.domain_info_check_placeholder]
-other = "Enter URL (without https://)"
-
-[tools.ping_check_placeholder]
-other = "Enter URL (without https://)"
-
-[tools.dead_link_check_placeholder]
-other = "Enter URL (without https://)"
-
-[tools.keyword_mining_placeholder]
-other = "Enter keyword"
-
-[search_types.zhihu_placeholder]
-other = "Zhihu Search"
-
-[search_types.wechat_placeholder]
-other = "WeChat Search"
-
-[search_types.weibo_placeholder]
-other = "Weibo Search"
-
-[search_types.douban_placeholder]
-other = "Douban Search"
-
-[search_types.taobao_placeholder]
-other = "Taobao Search"
-
-[search_types.jd_placeholder]
-other = "JD Search"
-
-[search_types.xiachufang_placeholder]
-other = "Xiachufang Search"
-
-[search_types.xiangha_placeholder]
-other = "Xiangha Search"
-
-[search_types.train12306_placeholder]
-other = "12306 Search"
-
-[search_types.qunar_placeholder]
-other = "Qunar Search"
-
-[search_types.zhaopin_placeholder]
-other = "Zhaopin Search"
-
-[search_types.job51_placeholder]
-other = "51Job Search"
-
-[search_types.lagou_placeholder]
-other = "Lagou Search"
-
-[search_types.liepin_placeholder]
-other = "Liepin Search"
-
-[search_types.sm]
-other = "magic horse search"
-
-[search_types.sm_placeholder]
-other = "magic horse search"
 
 [bulletin_1]
 other = "Bulletin 1"
@@ -158,8 +101,3 @@ other = "Bulletin 1"
 [bulletin_2]
 other = "Bulletin 2"
 
-[night_mode_on]
-other = "Night Mode On"
-
-[night_mode_off]
-other = "Night Mode Off"

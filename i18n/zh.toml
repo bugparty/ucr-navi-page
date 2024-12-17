@@ -1,15 +1,15 @@
+day_mode = "日间模式"
+night_mode = "夜间模式"
+night_mode_on = "夜间模式开启"
+night_mode_off  = "夜间模式关闭"
 [about]
 title = "关于网站"
+
 
 [links]
 friend_links = "友情链接"
 direct_link = "直达"
-
-[day_mode]
-other = "日间模式"
-
-[night_mode]
-other = "夜间模式"
+upload_site = "网站提交"
 
 [search]
 common = "常用"
@@ -31,6 +31,13 @@ domain_info_check = "域名信息查询"
 ping_check = "PING 检测"
 dead_link_check = "死链检测"
 keyword_mining = "关键词挖掘"
+
+weight_check_placeholder = "请输入网址(不带 https://)"
+friend_link_check_placeholder = "请输入网址(不带 https://)"
+domain_info_check_placeholder = "请输入网址(不带 https://)"
+ping_check_placeholder = "请输入网址(不带 https://)"
+dead_link_check_placeholder = "请输入网址(不带 https://)"
+keyword_mining_placeholder = "请输入关键词"
 
 [search_types]
 google = "Google"
@@ -62,93 +69,29 @@ job51 = "前程无忧"
 lagou = "拉钩网"
 liepin = "猎聘网"
 
-[search_types.google_placeholder]
-other = "Google 搜索"
+google_placeholder = "Google 搜索"
+bing_placeholder = "Bing 搜索"
+duckduckgo_placeholder = "Duckduckgo 搜索"
+conda_placeholder = "Conda 搜索"
+ucr_scholar_placeholder = "UCR 学术搜索"
+baidu_placeholder = "百度搜索"
+so360_placeholder = "360 搜索"
+sogou_placeholder = "搜狗搜索"
+zhihu_placeholder = "知乎搜索"
+wechat_placeholder = "微信搜索"
+weibo_placeholder = "微博搜索"
+douban_placeholder = "豆瓣搜索"
+taobao_placeholder = "淘宝搜索"
+jd_placeholder = "京东搜索"
+xiachufang_placeholder = "下厨房搜索"
+xiangha_placeholder = "香哈菜谱搜索"
+train12306_placeholder = "12306 搜索"
+qunar_placeholder = "去哪儿搜索"
+zhaopin_placeholder = "智联招聘搜索"
+job51_placeholder = "前程无忧搜索"
+lagou_placeholder = "拉钩网搜索"
+liepin_placeholder = "猎聘网搜索"
 
-[search_types.bing_placeholder]
-other = "Bing 搜索"
-
-[search_types.duckduckgo_placeholder]
-other = "Duckduckgo 搜索"
-
-[search_types.conda_placeholder]
-other = "Conda 搜索"
-
-[search_types.ucr_scholar_placeholder]
-other = "UCR 学术搜索"
-
-[search_types.baidu_placeholder]
-other = "百度搜索"
-[search_types.sm]
-other = "神马搜索"
-[search_types.so360_placeholder]
-other = "360 搜索"
-
-[search_types.sogou_placeholder]
-other = "搜狗搜索"
-
-[tools.weight_check_placeholder]
-other = "请输入网址(不带 https://)"
-
-[tools.friend_link_check_placeholder]
-other = "请输入网址(不带 https://)"
-
-[tools.domain_info_check_placeholder]
-other = "请输入网址(不带 https://)"
-
-[tools.ping_check_placeholder]
-other = "请输入网址(不带 https://)"
-
-[tools.dead_link_check_placeholder]
-other = "请输入网址(不带 https://)"
-
-[tools.keyword_mining_placeholder]
-other = "请输入关键词"
-
-[search_types.zhihu_placeholder]
-other = "知乎搜索"
-
-[search_types.wechat_placeholder]
-other = "微信搜索"
-
-[search_types.weibo_placeholder]
-other = "微博搜索"
-
-[search_types.douban_placeholder]
-other = "豆瓣搜索"
-
-[search_types.taobao_placeholder]
-other = "淘宝搜索"
-
-[search_types.jd_placeholder]
-other = "京东搜索"
-
-[search_types.xiachufang_placeholder]
-other = "下厨房搜索"
-
-[search_types.xiangha_placeholder]
-other = "香哈菜谱搜索"
-
-[search_types.train12306_placeholder]
-other = "12306 搜索"
-
-[search_types.qunar_placeholder]
-other = "去哪儿搜索"
-
-[search_types.zhaopin_placeholder]
-other = "智联招聘搜索"
-
-[search_types.job51_placeholder]
-other = "前程无忧搜索"
-
-[search_types.lagou_placeholder]
-other = "拉钩网搜索"
-
-[search_types.liepin_placeholder]
-other = "猎聘网搜索"
-
-[search_types.sm_placeholder]
-other = "神马搜索"
 
 [bulletin_1]
 other = "公告 1"
@@ -156,8 +99,3 @@ other = "公告 1"
 [bulletin_2]
 other = "公告 2"
 
-[night_mode_on]
-other = "夜间模式开启"
-
-[night_mode_off]
-other = "夜间模式关闭"

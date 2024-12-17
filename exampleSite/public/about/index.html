@@ -355,7 +355,7 @@ function switchNightMode(){
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
+        $(".switch-dark-mode").attr("data-original-title","{i18n 'day_mode'}");
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
@@ -364,7 +364,7 @@ function switchNightMode(){
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
+        $(".switch-dark-mode").attr("data-original-title","{i18n 'night_mode'}");
         $(".mode-ico").removeClass("icon-light");
         $(".mode-ico").addClass("icon-night");
     }
