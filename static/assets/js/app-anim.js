@@ -220,17 +220,17 @@
     function switch_mode(){
         if($('body').hasClass('io-black-mode')){
             if($(".switch-dark-mode").attr("data-original-title"))
-                $(".switch-dark-mode").attr("data-original-title","{i18n 'day_mode'}");
+                $(".switch-dark-mode").attr("data-original-title","Day Mode");
             else
-                $(".switch-dark-mode").attr("title","{i18n 'day_mode'}");
+                $(".switch-dark-mode").attr("title","Day Mode");
             $(".mode-ico").removeClass("icon-night");
             $(".mode-ico").addClass("icon-light");
         }
         else{
             if($(".switch-dark-mode").attr("data-original-title"))
-                $(".switch-dark-mode").attr("data-original-title","{i18n 'night_mode'}");
+                $(".switch-dark-mode").attr("data-original-title","Night Mode");
             else
-                $(".switch-dark-mode").attr("title","{i18n 'night_mode'}");
+                $(".switch-dark-mode").attr("title","Night Mode");
             $(".mode-ico").removeClass("icon-light");
             $(".mode-ico").addClass("icon-night");
         }
