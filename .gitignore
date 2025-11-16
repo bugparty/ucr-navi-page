@@ -29,3 +29,9 @@ hugo_stats.json
 
 # OS
 Thumbs.db
+
+# Design files
+*.sketch
+*.fig
+*.psd
+*.ai
