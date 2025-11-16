@@ -611,11 +611,10 @@
         }
     }
     function removeSite() {
-        var id = $(this).data("id"), 
+        var id = $(this).data("id"),
             sites = getItem("myLinks");
         for (var i = 0; i < sites.length; i++){
             if ( parseInt(sites[i].id) === parseInt(id)) {
-                console.log(sites[i].id, id);
                 sites.splice(i, 1);
                 break;
             }
@@ -624,11 +623,10 @@
         $(this).parent().remove();
     }
     function removeLiveSite() {
-        var id = $(this).data("id"), 
+        var id = $(this).data("id"),
             sites = getItem("livelists");
         for (var i = 0; i < sites.length; i++){
             if ( parseInt(sites[i].id) === parseInt(id)) {
-                console.log(sites[i].id, id);
                 sites.splice(i, 1);
                 break;
             }
@@ -1287,7 +1285,6 @@ function ioConfirm(message, btnCallBack) {
 	}
 	return popup;
 }
-console.log("\n %c WebStack-Hugo 导航主题 By ShumLab %c https://www.shumlab.com/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 /**
  * Minified by jsDelivr using Terser v5.3.5.
